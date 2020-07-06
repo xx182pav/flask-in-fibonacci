@@ -1,0 +1,30 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фибоначи</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Числа Фибоначи</h1>
+        <form method="GET">
+            <div class="form-group">
+                <label for="inputNumber">Укажите число</label>
+                <input type=number class="form-control" id="inputNumber" name="k">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <div class="card">
+            <div class="card-body">
+                <p>{{ n }}</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
